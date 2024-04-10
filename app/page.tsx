@@ -1,112 +1,133 @@
-import Image from "next/image";
+import { IconPhone, IconMail, IconMapPin, IconBrandFacebook, IconBrandInstagram } from '@tabler/icons-react';
+import Link from "next/link";
+
+const currentYear = new Date().getFullYear();
+const yearsAgo = currentYear - 2021;
+const yearsAgoStr =  yearsAgo >= 3 && yearsAgo <= 7 ? ['tres', 'cuatro', 'cinco', 'seis', 'siete'][yearsAgo - 3] : 'algunos';
+
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
-        <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
-          Get started by editing&nbsp;
-          <code className="font-mono font-bold">app/page.tsx</code>
-        </p>
-        <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none">
-          <a
-            className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0"
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{" "}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className="dark:invert"
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
+    <main>
+      <div className="p-6"> {/* This is div for the whole page content */}
+
+        <div className="w-4/5 mx-auto max-w-sm mt-8 mb-16"> {/* start of menu */}
+          <h2 id="menu" className={"text-center text-xl font-bold tracking-widest"}>Menú</h2>
+
+          <div className="my-4"> {/* start of menu content  (NOTE: DUMMY CONTENT!) */}
+            <h3 className="text-lg font-semibold mb-2">Appetizers</h3>
+            <div className="flex justify-between mb-1">
+              <span>Toast Skagen</span>
+              <span>€11</span>
+            </div>
+
+            <h3 className="text-lg font-semibold mt-4 mb-2">Main courses</h3>
+            <div className="mb-2">
+              <h4 className="text-md font-semibold">Chicken and meat</h4>
+              <div className="flex justify-between">
+                <span>Chicken wings</span>
+                <span>€18</span>
+              </div>
+              <div className="flex justify-between">
+                <span>Hamburger</span>
+                <span>€14</span>
+              </div>
+            </div>
+            
+            <div className="mb-2">
+              <h4 className="text-md font-semibold">From the sea</h4>
+              <div className="flex justify-between">
+                <span>Calamari</span>
+                <span>€12</span>
+              </div>
+              <div className="flex justify-between">
+                <span>Salmon filé</span>
+                <span>€23</span>
+              </div>
+            </div>
+
+            <h3 className="text-lg font-semibold mt-4 mb-2">Desserts</h3>
+            <div className="flex justify-between">
+              <span>Chocolate ice cream</span>
+              <span>€5</span>
+            </div>
+            <div className="flex justify-between">
+              <span>Strawberry ice cream</span>
+              <span>€5</span>
+            </div>
+            <div className="flex justify-between">
+              <span>Vanilla ice cream</span>
+              <span>€5</span>
+            </div>
+            <div className="flex justify-between">
+              <span>Pavlova</span>
+              <span>€5</span>
+            </div>
+          </div>
+        </div> {/* end of menu */}
+        
+        <div className="w-4/5 mx-auto max-w-sm my-16"> {/* start of hours */}
+          <h2 id="hours" className={"text-center text-xl font-bold tracking-widest"}>Horario</h2>
+          <div className="my-4">
+            <div className="flex justify-between mb-1">
+              <span>Mar–Jue</span>
+              <span>11:00–22:00</span>
+            </div>
+            <div className="flex justify-between mb-4">
+              <span>Vie–Dom</span>
+              <span>12:00–23:00</span>
+            </div>
+
+            <h3 className="text-lg font-semibold mb-2">Horario de Menú de almuerzo</h3>
+            <div className="flex justify-between mb-1">
+              <span>Mar–Jue</span>
+              <span>11:00–15:00</span>
+            </div>
+            <div className="flex justify-between">
+              <span>Vie–Dom</span>
+              <span>12:00–16:00</span>
+            </div>
+          </div>
         </div>
-      </div>
 
-      <div className="relative flex place-items-center before:absolute before:h-[300px] before:w-full sm:before:w-[480px] before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-full sm:after:w-[240px] after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700 before:dark:opacity-10 after:dark:from-sky-900 after:dark:via-[#0141ff] after:dark:opacity-40 before:lg:h-[360px] z-[-1]">
-        <Image
-          className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-      </div>
 
-      <div className="mb-32 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left">
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Docs{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Find in-depth information about Next.js features and API.
-          </p>
-        </a>
 
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Learn{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Learn about Next.js in an interactive course with&nbsp;quizzes!
-          </p>
-        </a>
+        <div className="w-4/5 mx-auto max-w-sm my-16"> {/* start of contact */}
+          <h2 id="contact" className={"text-center text-xl font-bold tracking-widest"}>Contacto</h2>
+          <div className="my-4">
+            <div className="flex justify-center gap-14 my-8">
+              <Link title="Página de Facebook para Casa Marta Restaurante" aria-label="Facebook" href="https://www.facebook.com/people/Casa-Marta-Restaurante/61557999488320/"><IconBrandFacebook /></Link>
+              <Link title="Página de Instagram para Casa Marta Restaurante" aria-label="Instagram" href="https://www.instagram.com/casamartarestaurante/"><IconBrandInstagram /></Link>
+            </div>
+            <Link href="mailto:casamartarestaurante@gmail.com" className="flex mb-1 ml-10">
+              <p className="basis-1/6"><IconMail /></p>
+              <p className="basis-5/6">casamartarestaurante@gmail.com</p>
+            </Link>
+            <Link href="tel:+340123456" className="flex mb-1 ml-10">
+              <p className="basis-1/6"><IconPhone /></p>
+              <p className="basis-5/6">+34 012 34 56</p>
+            </Link>
+            <div className="flex mb-1 ml-10">
+              <p className="basis-1/6"><IconMapPin /></p>
+              <p className="basis-5/6">Carrer Ramon Llull, 26, 08330 Premià de Mar</p>
+            </div>
+            <div className="my-6">
+              <p>Para realizar reservas, por favor utilice el número de teléfono indicado arriba.</p>
+            </div>
+          </div>
+        </div>
 
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Templates{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Explore starter templates for Next.js.
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Deploy{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50 text-balance`}>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
+        <div className="w-4/5 mx-auto max-w-sm my-16"> {/* start of about */}
+          <h2 id="about" className={"text-center text-xl font-bold tracking-widest"}>Sobre nosotros</h2>
+          <div className="my-4">
+            <p className="text-center mb-6">En Casa Marta Restaurante, nuestra historia comienza con Marta, una colombiana que se mudó de Suecia a Barcelona hace {yearsAgoStr} años. 
+            Tras dejar atrás su carrera en tecnología, el sueño de Marta de compartir su pasión por la cocina diversa cobró vida.</p>
+            
+            <p className="text-center">Nuestro restaurante combina un poco de todo, desde tapas reconfortantes hasta platos peruanos tentadores. 
+            Arraigado en la calidez colombiana de Marta, Casa Marta irradia un ambiente amigable, familiar y acogedor para todos. 
+            Bienvenidos a una experiencia culinaria tan sincera como deliciosa.</p>  
+          </div>
+        </div>
       </div>
     </main>
   );
