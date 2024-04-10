@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import MenuNav from '@/app/ui/menu-nav';
+import NavMenu from '@/app/ui/navmenu';
 import { Arsenal } from 'next/font/google';
 import clsx from 'clsx';
 
@@ -38,7 +38,7 @@ export default function RootLayout({
   return (
     <html className="scroll-smooth" lang="es">
       <body className={clsx('min-h-screen', arsenal.className)}>
-        <MenuNav menuItems={menuItems} />
+        <NavMenu menuItems={menuItems} />
         {children}
       </body>
     </html>

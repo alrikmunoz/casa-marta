@@ -6,7 +6,7 @@ type MenuItemsType = {
   name: string,
 }[];
 
-export default function MenuNav({ menuItems } : { menuItems : MenuItemsType}) {
+export default function NavMenu({ menuItems } : { menuItems : MenuItemsType}) {
   return (
     <div className="flex flex-col md:flex-row justify-between md:justify-evenly items-center bg-white">
       <Link
