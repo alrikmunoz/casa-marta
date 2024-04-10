@@ -1,0 +1,395 @@
+[
+  {
+    "type": "category",
+    "name": "Entre Panes Anda a la Casa",
+    "content": [
+      {
+        "type": "item",
+        "name": "Torrada de jamón ibérico",
+        "price": "13,50€"
+      },
+      {
+        "type": "item",
+        "name": "Torrada de jamón serrano",
+        "price": "9,50€"
+      },
+      {
+        "type": "item",
+        "name": "Bocadillo de tortilla francesa",
+        "price": "5,50€",
+        "description": "(con queso y en pan gallego)"
+      },
+      {
+        "type": "item",
+        "name": "Bocadillo de bacon",
+        "price": "6,50€",
+        "description": "(con queso y en pan gallego)"
+      },
+      {
+        "type": "item",
+        "name": "Pan de cristal con tomate",
+        "price": "4,50€"
+      },
+      {
+        "type": "item",
+        "name": "Pan gallego con tomate",
+        "price": "3,50€"
+      }
+    ]
+  },
+  {
+    "type": "category",
+    "name": "La Despensa",
+    "content": [
+      {
+        "type": "item",
+        "name": "Ración de queso curado",
+        "price": "12,50€"
+      },
+      {
+        "type": "item",
+        "name": "Ración de jamón ibérico",
+        "price": "14,50€"
+      },
+      {
+        "type": "item",
+        "name": "Ración de jamón serrano",
+        "price": "11,50€"
+      }
+    ]
+  },
+  {
+    "type": "category",
+    "name": "Juntos, pero no revueltos",
+    "content": [
+      {
+        "type": "item",
+        "name": "Bravas rústicas",
+        "price": "7,50€"
+      },
+      {
+        "type": "item",
+        "name": "Bravas con alioli",
+        "price": "6,50€"
+      },
+      {
+        "type": "item",
+        "name": "Rabas de calamar",
+        "price": "10,50€"
+      },
+      {
+        "type": "item",
+        "name": "Pimientos del padrón",
+        "price": "7,50€"
+      },
+      {
+        "type": "item",
+        "name": "Tiras de solomillo de pollo",
+        "price": "10,50€"
+      },
+      {
+        "type": "item",
+        "name": "Croquetas de bacalao (6 unid.)",
+        "price": "12€"
+      },
+      {
+        "type": "item",
+        "name": "Croquetas de jamón ibérico (6 unid.)",
+        "price": "12€"
+      },
+      {
+        "type": "item",
+        "name": "Croquetas de cocido (6 unid.)",
+        "price": "11,50€"
+      },
+      {
+        "type": "item",
+        "name": "Croquetas de pollo (6 unid.)",
+        "price": "10,50"
+      },
+      {
+        "type": "item",
+        "name": "Bombas de pulpo",
+        "price": "3,20€/unid."
+      },
+      {
+        "type": "item",
+        "name": "Callos",
+        "price": "11,50€"
+      },
+      {
+        "type": "item",
+        "name": "Morros fritos",
+        "price": "9,50€"
+      }
+    ]
+  },
+  {
+    "type": "category",
+    "name": "Ensaladas",
+    "content": [
+      {
+        "type": "item",
+        "name": "Ensalada capresa",
+        "price": "10,90€"
+      },
+      {
+        "type": "item",
+        "name": "Ensalada de pollo",
+        "price": "12,90€"
+      },
+      {
+        "type": "item",
+        "name": "Ensalada de queso de cabra",
+        "price": "12,90€"
+      },
+      {
+        "type": "item",
+        "name": "Ensalada de atún",
+        "price": "10,90€"
+      }
+    ]
+  },
+  {
+    "type": "category",
+    "name": "Nuestros Productos del Mar",
+    "content": [
+      {
+        "type": "item",
+        "name": "Pulpo “a Feira”",
+        "price": "21€"
+      },
+      {
+        "type": "item",
+        "name": "Gambas langostineras",
+        "price": "16€"
+      },
+      {
+        "type": "item",
+        "name": "Calamares a la andaluza",
+        "price": "12€"
+      },
+      {
+        "type": "item",
+        "name": "Sepia a la plancha",
+        "price": "13,90€"
+      },
+      {
+        "type": "item",
+        "name": "Almejas a la marinera",
+        "price": "12,90€"
+      },
+      {
+        "type": "item",
+        "name": "Mejillones a la marinera/vapor",
+        "price": "12,50€"
+      },
+      {
+        "type": "item",
+        "name": "Anchoas en vinagre",
+        "price": "8,50€"
+      },
+      {
+        "type": "item",
+        "name": "Boquerones en vinagre",
+        "price": "7,50€"
+      },
+      {
+        "type": "item",
+        "name": "Paella de mariscos (mín. 2 p.)",
+        "price": "17,50€ pp."
+      },
+      {
+        "type": "item",
+        "name": "Fideuá a la marinera (mín. 2 p.)",
+        "price": "16,50€ pp."
+      }
+    ]
+  },
+  {
+    "type": "category",
+    "name": "Nuestros Carnes",
+    "content": [
+      {
+        "type": "item",
+        "name": "Chuletón de ternera (500 g)",
+        "price": "18,90€"
+      },
+      {
+        "type": "item",
+        "name": "Bistec de ternera",
+        "price": "10,90€"
+      },
+      {
+        "type": "item",
+        "name": "Hamburguesa de la casa",
+        "price": "11,90€"
+      },
+      {
+        "type": "item",
+        "name": "Milanesa de ternera",
+        "price": "11,90€"
+      },
+      {
+        "type": "item",
+        "name": "Milanesa de pollo",
+        "price": "10,90€"
+      }
+    ]
+  },
+  {
+    "type": "category",
+    "name": "Pastas",
+    "content": [
+      {
+        "type": "item",
+        "name": "Espagueti a la boloñesa",
+        "price": "10,90€"
+      },
+      {
+        "type": "item",
+        "name": "Macarrones a la boloñesa",
+        "price": "10,90€"
+      }
+    ]
+  },
+  {
+    "type": "category",
+    "name": "Entrantes peruanos",
+    "content": [
+      {
+        "type": "item",
+        "name": "Ceviche de pescado",
+        "price": "14,90€",
+        "description": "Dados marinados de pescado y leche de tigre"
+      },
+      {
+        "type": "item",
+        "name": "Anticuchos de corazón de ternera",
+        "price": "9,50€",
+        "description": "Macerado en salsa de ají panca"
+      },
+      {
+        "type": "item",
+        "name": "Callos a la parrilla",
+        "price": "10,90€",
+        "description": "Macerado en salsa de ají panca"
+      },
+      {
+        "type": "item",
+        "name": "Yuquitas con salsa de ají amarillo",
+        "price": "10,90€",
+        "description": "Deliciosas como siempre"
+      },
+      {
+        "type": "item",
+        "name": "Patata a la huancaína",
+        "price": "7,90€",
+        "description": "Patatas bañadas en salsa de ají amarillo"
+      }
+    ]
+  },
+  {
+    "type": "category",
+    "name": "Platos criollos",
+    "content": [
+      {
+        "type": "item",
+        "name": "Lomo saltado",
+        "price": "14,90€",
+        "description": "Generosos trozos de lomo de ternera salteados al wok en reducción de soja"
+      },
+      {
+        "type": "item",
+        "name": "Pollo saltado",
+        "price": "13,90€",
+        "description": "Tiras de pollo salteados al wok en reducción de soja"
+      },
+      {
+        "type": "item",
+        "name": "Tallarín saltado de ternera",
+        "price": "14,90€",
+        "description": "Tiras de lomo de ternera salteados al wok en reducción de soja"
+      },
+      {
+        "type": "item",
+        "name": "Tallarín saltado de pollo",
+        "price": "13,90€",
+        "description": "Tiras de pollo salteados al wok en reducción de soja"
+      },
+      {
+        "type": "item",
+        "name": "Arroz chaufa de ternera",
+        "price": "14,90€",
+        "description": "Arroz frito con trozos de ternera, tortilla de huevo y cebolla china salteados al wok con soja"
+      },
+      {
+        "type": "item",
+        "name": "Arroz chaufa de secreto ibérico",
+        "price": "14,90€",
+        "description": "Arroz frito con trozos de secreto ibérico, tortilla de huevo y cebolla china salteados al wok con soja"
+      },
+      {
+        "type": "item",
+        "name": "Arroz chaufa de pollo",
+        "price": "13,90€",
+        "description": "Arroz frito con tiras de pollo, tortilla de huevo y cebolla china salteados al wok con soja"
+      },
+      {
+        "type": "item",
+        "name": "Chicharrón de pescado",
+        "price": "14,90€",
+        "description": "Tiras de pescado frito con yuca frita y ensalada criolla"
+      },
+      {
+        "type": "item",
+        "name": "Chicharrón de calamar",
+        "price": "14,90€",
+        "description": "Aros de calamar fritos con yuca frita y ensalada criolla"
+      },
+      {
+        "type": "item",
+        "name": "Chicharrón de pollo",
+        "price": "13,90€",
+        "description": "Tiras de pollo frito con patata frita y salsa tártara"
+      },
+      {
+        "type": "item",
+        "name": "Chicharrón de cerdo",
+        "price": "13,90€",
+        "description": "Generosos trozos de cerdo con patata dorada y ensalada criolla"
+      }
+    ]
+  },
+  {
+    "type": "category",
+    "name": "Postres",
+    "price": "5,50€/ración",
+    "content": [
+      {
+        "type": "item",
+        "name": "Tarta de chocolate"
+      },
+      {
+        "type": "item",
+        "name": "Tarta de frutos del bosque"
+      },
+      {
+        "type": "item",
+        "name": "Tarta de queso"
+      },
+      {
+        "type": "item",
+        "name": "Tarta de manzana"
+      },
+      {
+        "type": "item",
+        "name": "Tarta de Santiago"
+      },
+      {
+        "type": "item",
+        "name": "Tarta Red Velvet"
+      }
+    ]
+  }
+]
