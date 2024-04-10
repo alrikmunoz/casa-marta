@@ -66,26 +66,20 @@ export default function Home() {
           </div>
         </div> {/* end of menu */}
         
-        <div className="w-4/5 mx-auto max-w-sm md:max-w-3xl my-16"> {/* start of hours */}
+        <div className="w-4/5 mx-auto max-w-sm md:max-w-xl my-16"> {/* start of hours */}
           <h2 id="hours" className={"text-center text-xl font-bold tracking-widest"}>Horario</h2>
           <div className="my-4 md:my-12">
             <div className="flex justify-between mb-1">
-              <span>Mar–Jue</span>
-              <span>11:00–22:00</span>
+              <span>Martes a jueves</span>
+              <span>de 11:00 a 22:00 horas</span>
+            </div>
+            <div className="flex justify-between mb-1">
+              <span>Viernes y sábado</span>
+              <span>de 11:00 a 23:00 horas</span>
             </div>
             <div className="flex justify-between mb-4">
-              <span>Vie–Dom</span>
-              <span>12:00–23:00</span>
-            </div>
-
-            <h3 className="text-lg font-semibold mb-2">Horario de Menú de almuerzo</h3>
-            <div className="flex justify-between mb-1">
-              <span>Mar–Jue</span>
-              <span>11:00–15:00</span>
-            </div>
-            <div className="flex justify-between">
-              <span>Vie–Dom</span>
-              <span>12:00–16:00</span>
+              <span>Domingo</span>
+              <span>de 11:00 a 22:00 horas</span>
             </div>
           </div>
         </div>
@@ -117,7 +111,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="w-4/5 mx-auto md:mx-0 max-w-sm my-16 md:my-24"> {/* start of about */}
+          <div className="w-4/5 mx-auto md:mx-0 max-w-sm my-16"> {/* start of about */}
             <h2 id="about" className={"text-center text-xl font-bold tracking-widest"}>Sobre nosotros</h2>
             <div className="my-4 md:my-12">
               <p className="text-center mb-6">En Casa Marta Restaurante, nuestra historia comienza con Marta, una colombiana que se mudó de Suecia a Barcelona hace {yearsAgoStr} años. 
