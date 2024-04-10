@@ -14,7 +14,7 @@ export default function NavMenu({ menuItems } : { menuItems : MenuItemsType}) {
       href="/">
         
         <Image
-        src="/logo_only.png"
+        src="logo_only.png"
         alt="Casa Marta Logo"
         className='h-full w-auto'
         width={450}
@@ -23,7 +23,7 @@ export default function NavMenu({ menuItems } : { menuItems : MenuItemsType}) {
         />
         <h1 className="h-3/6 w-auto">
           <Image
-          src="/logo_text.png"
+          src="logo_text.png"
           alt="Casa Marta Restaurante"
           className="h-full w-auto"
           width={296.33} // 889
