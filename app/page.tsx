@@ -28,9 +28,9 @@ export default async function Home() {
 
   return (
     <main>
-      <div className="p-6"> {/* This is div for the whole page content */}
+      <div className="py-6 px-2 md:p-6"> {/* This is div for the whole page content */}
 
-        <div className="w-4/5 mx-auto max-w-sm md:max-w-3xl mt-8 mb-16"> {/* start of menu */}
+        <div className="w-5/6 mx-auto max-w-sm md:max-w-3xl mt-8 mb-16"> {/* start of menu */}
           <h2 id="menu" className={"text-center text-2xl font-bold tracking-widest"}>Menú</h2>
 
           <div className="my-4 md:my-20 md:columns-2 md:gap-16"> {/* start of menu content */}
@@ -58,26 +58,26 @@ export default async function Home() {
 
 
         <div className="md:flex md:justify-center gap-48">
-          <div className="w-4/5 mx-auto md:mx-0 max-w-sm my-16"> {/* start of contact */}
+          <div className="md:w-4/5 w-11/12 mx-auto md:mx-0 max-w-sm my-16"> {/* start of contact */}
             <h2 id="contact" className={"text-center text-2xl font-bold tracking-widest"}>Contacto</h2>
             <div className="my-4">
               <div className="flex justify-center gap-14 my-8 md:my-8">
                 <Link title="Página de Facebook para Casa Marta Restaurante" aria-label="Facebook" href="https://www.facebook.com/people/Casa-Marta-Restaurante/61557999488320/"><IconBrandFacebook /></Link>
                 <Link title="Página de Instagram para Casa Marta Restaurante" aria-label="Instagram" href="https://www.instagram.com/casamartarestaurante/"><IconBrandInstagram /></Link>
               </div>
-              <Link href="mailto:casamartarestaurante@gmail.com" className="flex mb-1 ml-10">
+              <Link href="mailto:casamartarestaurante@gmail.com" className="flex mb-1 ml-8">
                 <p className="basis-1/6"><IconMail /></p>
                 <p className="basis-5/6">contacto@casamartarestaurante.com</p>
               </Link>
-              <Link href="tel:+340123456" className="flex mb-1 ml-10">
+              <Link href="tel:+340123456" className="flex mb-1 ml-8">
                 <p className="basis-1/6"><IconPhone /></p>
                 <p className="basis-5/6">+34 931 470 175</p>
               </Link>
-              <div className="flex mb-1 ml-10">
+              <div className="flex mb-1 ml-8">
                 <p className="basis-1/6"><IconMapPin /></p>
                 <p className="basis-5/6">Carrer Ramon Llull, 26, 08330 Premià de Mar</p>
               </div>
-              <div className="my-6">
+              <div className="my-6 md:w-auto w-4/5 m-auto">
                 <p>Para realizar reservas, por favor utilice el número de teléfono indicado arriba.</p>
               </div>
             </div>
