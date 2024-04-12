@@ -13,7 +13,7 @@
   },
   {
     "type": "category",
-    "name": "Raciones de jamón",
+    "name": "Embutidos y quesos",
     "content": [
       { "type": "item", "name": "Ración de queso curado", "price": "12,50€" },
       { "type": "item", "name": "Ración de jamón ibérico", "price": "14,50€" },
