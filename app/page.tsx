@@ -67,11 +67,11 @@ export default async function Home() {
               </div>
               <Link href="mailto:casamartarestaurante@gmail.com" className="flex mb-1 ml-10">
                 <p className="basis-1/6"><IconMail /></p>
-                <p className="basis-5/6">casamartarestaurante@gmail.com</p>
+                <p className="basis-5/6">contacto@casamartarestaurante.com</p>
               </Link>
               <Link href="tel:+340123456" className="flex mb-1 ml-10">
                 <p className="basis-1/6"><IconPhone /></p>
-                <p className="basis-5/6">+34 012 34 56</p>
+                <p className="basis-5/6">+34 931 470 175</p>
               </Link>
               <div className="flex mb-1 ml-10">
                 <p className="basis-1/6"><IconMapPin /></p>
@@ -86,11 +86,11 @@ export default async function Home() {
           <div className="w-4/5 mx-auto md:mx-0 max-w-sm my-16"> {/* start of about */}
             <h2 id="about" className={"text-center text-2xl font-bold tracking-widest"}>Sobre nosotros</h2>
             <div className="my-4 md:my-12">
-              <p className="text-center mb-6">En Casa Marta Restaurante, nuestra historia comienza con Marta, una colombiana que se mudó de Suecia a Barcelona hace {yearsAgoStr} años. 
-              Tras dejar atrás su carrera en tecnología, el sueño de Marta de compartir su pasión por la cocina diversa cobró vida.</p>
+              <p className="text-center mb-6">En Casa Marta Restaurante, nuestra historia comienza con Marta, una colombiana que se trasladó de Suecia a Barcelona hace {yearsAgoStr} años. 
+              Tras dejar atrás su carrera en el área de informática, el sueño de Marta de compartir su pasión por la cocina diversa se ha hecho realidad.</p>
               
-              <p className="text-center">Nuestro restaurante combina un poco de todo, desde tapas reconfortantes hasta platos peruanos tentadores. 
-              Arraigado en la calidez colombiana de Marta, Casa Marta irradia un ambiente amigable, familiar y acogedor para todos. 
+              <p className="text-center">Nuestro restaurante combina un poco de todo, desde tapas hasta platos peruanos. 
+              Arraigado en la calidez colombiana de Marta, Casa Marta ofrece un ambiente amigable, familiar y acogedor para todos. 
               Bienvenidos a una experiencia culinaria tan sincera como deliciosa.</p>  
             </div>
           </div>
