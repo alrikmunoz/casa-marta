@@ -64,8 +64,8 @@
     "name": "Del Mar",
     "content": [
       { "type": "item", "name": "Pulpo “a la Gallega”", "price": "21€" },
-      { "type": "item", "name": "Gambas langostineras", "price": "14.90€" },
-      { "type": "item", "name": "Calamares a la andaluza", "price": "11.90€" },
+      { "type": "item", "name": "Gambas langostineras", "price": "14,90€" },
+      { "type": "item", "name": "Calamares a la andaluza", "price": "11,90€" },
       { "type": "item", "name": "Sepia a la plancha", "price": "13,90€" },
       { "type": "item", "name": "Almejas a la marinera", "price": "12,90€" },
       { "type": "item", "name": "Mejillones a la marinera/vapor", "price": "12,50€" },
