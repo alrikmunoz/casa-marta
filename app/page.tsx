@@ -42,16 +42,16 @@ export default async function Home() {
           <h2 id="hours" className={"text-center text-2xl font-bold tracking-widest"}>Horario</h2>
           <div className="my-4 md:my-12">
             <div className="flex justify-between mb-1">
-              <span>Martes a jueves</span>
+              <span>martes a jueves</span>
               <span>de 11:00 a 22:00 horas</span>
             </div>
             <div className="flex justify-between mb-1">
-              <span>Viernes y sábado</span>
+              <span>viernes y sábado</span>
               <span>de 11:00 a 23:00 horas</span>
             </div>
             <div className="flex justify-between mb-4">
-              <span>Domingo</span>
-              <span>de 11:00 a 22:00 horas</span>
+              <span>domingo</span>
+              <span>de 11:00 a 17:00 horas</span>
             </div>
           </div>
         </div>
