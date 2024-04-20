@@ -42,11 +42,10 @@
     "type": "category",
     "name": "Tapas con aires peruanos",
     "content": [
-      { "type": "item", "name": "Ceviche", "price": "14,90€", "description": "Dados marinados de pescado y leche de tigre" },
+      { "type": "item", "name": "Ceviche", "price": "15,90€", "description": "Dados marinados de pescado y leche de tigre" },
       { "type": "item", "name": "Anticuchos de corazón de ternera", "price": "10,90€", "description": "Macerado en salsa de ají panca" },
-      { "type": "item", "name": "Callos a la parrilla", "price": "10,90€", "description": "Macerado en salsa de ají panca" },
-      { "type": "item", "name": "Yuca de la casa con salsa de ají amarillo", "price": "7,90€", "description": "Deliciosas como siempre" },
-      { "type": "item", "name": "Patata a la huancaína", "price": "9,90€", "description": "Patatas bañadas en salsa de ají amarillo" }
+      { "type": "item", "name": "Yuca de la casa con salsa de ají amarillo", "price": "9,90€", "description": "Deliciosas como siempre" },
+      { "type": "item", "name": "Patata a la huancaína", "price": "10,90€", "description": "Patatas bañadas en salsa de ají amarillo" }
     ]
   },
   {
@@ -80,8 +79,7 @@
     "name": "Carnes",
     "content": [
       { "type": "item", "name": "Chuletón de ternera (500 g)", "price": "18,90€" },
-      { "type": "item", "name": "Bistec de ternera", "price": "10,90€" },
-      { "type": "item", "name": "Hamburguesa de la casa", "price": "11,90€" },
+      { "type": "item", "name": "Bistec de ternera", "price": "12,90€" },
       { "type": "item", "name": "Milanesa de ternera", "price": "11,90€" },
       { "type": "item", "name": "Milanesa de pollo", "price": "10,90€" }
     ]
@@ -98,17 +96,16 @@
     "type": "category",
     "name": "Sabores peruanos",
     "content": [
-      { "type": "item", "name": "Lomo saltado", "price": "14,90€", "description": "Generosos trozos de lomo de ternera salteados al wok en reducción de soja" },
-      { "type": "item", "name": "Pollo saltado", "price": "13,90€", "description": "Tiras de pollos salteados al wok en reducción de soja" },
-      { "type": "item", "name": "Tallarín saltado de ternera", "price": "14,90€", "description": "Tiras de lomo de ternera salteados al wok en reducción de soja" },
-      { "type": "item", "name": "Tallarín saltado de pollo", "price": "13,90€", "description": "Tiras de pollo salteados al wok en reducción de soja" },
-      { "type": "item", "name": "Arroz chaufa de ternera", "price": "14,90€", "description": "Arroz frito con trozos de ternera, tortilla de huevo y cebolla china salteados al wok con soja" },
-      { "type": "item", "name": "Arroz chaufa de secreto ibérico", "price": "14,90€", "description": "Arroz frito con trozos de secreto ibérico, tortilla de huevo y cebolla china salteados al wok con soja" },
-      { "type": "item", "name": "Arroz chaufa de pollo", "price": "13,90€", "description": "Arroz frito con tiras de pollo, tortilla de huevo y cebolla china salteados al wok con soja" },
-      { "type": "item", "name": "Chicharrón de pescado", "price": "14,90€", "description": "Tiras de pescado frito con yuca frita y ensalada criolla" },
-      { "type": "item", "name": "Chicharrón de calamar", "price": "14,90€", "description": "Aros de calamar fritos con yuca frita y ensalada criolla" },
-      { "type": "item", "name": "Chicharrón de pollo", "price": "13,90€", "description": "Tiras de pollo frito con patata frita y salsa tártara" },
-      { "type": "item", "name": "Chicharrón de cerdo", "price": "13,90€", "description": "Generosos trozos de cerdo con patata dorada y ensalada criolla" }
+      { "type": "item", "name": "Lomo saltado", "price": "16,90€", "description": "Generosos trozos de lomo de ternera salteados al wok en reducción de soja" },
+      { "type": "item", "name": "Pollo saltado", "price": "14,90€", "description": "Tiras de pollos salteados al wok en reducción de soja" },
+      { "type": "item", "name": "Tallarín saltado de ternera", "price": "16,90€", "description": "Tiras de lomo de ternera salteados al wok en reducción de soja" },
+      { "type": "item", "name": "Tallarín saltado de pollo", "price": "14,90€", "description": "Tiras de pollo salteados al wok en reducción de soja" },
+      { "type": "item", "name": "Arroz chaufa de ternera", "price": "16,90€", "description": "Arroz frito con trozos de ternera, tortilla de huevo y cebolla china salteados al wok con soja" },
+      { "type": "item", "name": "Arroz chaufa de secreto ibérico", "price": "16,90€", "description": "Arroz frito con trozos de secreto ibérico, tortilla de huevo y cebolla china salteados al wok con soja" },
+      { "type": "item", "name": "Arroz chaufa de pollo", "price": "14,90€", "description": "Arroz frito con tiras de pollo, tortilla de huevo y cebolla china salteados al wok con soja" },
+      { "type": "item", "name": "Chicharrón de pescado", "price": "15,90€", "description": "Tiras de pescado frito con yuca frita y ensalada criolla" },
+      { "type": "item", "name": "Chicharrón de calamar", "price": "16,90€", "description": "Aros de calamar fritos con yuca frita y ensalada criolla" },
+      { "type": "item", "name": "Chicharrón de pollo", "price": "14,90€", "description": "Tiras de pollo frito con patata frita y salsa tártara" }
     ]
   },
   {
@@ -117,7 +114,7 @@
     "price": "5,50€/ración",
     "content": [
       { "type": "item", "name": "Tarta de chocolate" },
-      { "type": "item", "name": "Tarta de frutos del bosque" },
+      { "type": "item", "name": "Tarta de arandanos" },
       { "type": "item", "name": "Tarta de queso" },
       { "type": "item", "name": "Tarta de manzana" },
       { "type": "item", "name": "Tarta de Santiago" },
