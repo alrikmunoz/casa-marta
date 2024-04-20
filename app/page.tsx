@@ -87,7 +87,7 @@ export default async function Home() {
                   <Link title="Página de Facebook para Casa Marta Restaurante" aria-label="Facebook" href="https://www.facebook.com/people/Casa-Marta-Restaurante/61557999488320/"><IconBrandFacebook /></Link>
                   <Link title="Página de Instagram para Casa Marta Restaurante" aria-label="Instagram" href="https://www.instagram.com/casamartarestaurante/"><IconBrandInstagram /></Link>
                 </div>
-                <Link href="mailto:casamartarestaurante@gmail.com" className="flex mb-1 ml-8">
+                <Link href="mailto:contacto@casamartarestaurante.com" className="flex mb-1 ml-8">
                   <p className="basis-1/6"><IconMail /></p>
                   <p className="basis-5/6">contacto@casamartarestaurante.com</p>
                 </Link>
