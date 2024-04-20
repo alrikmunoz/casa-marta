@@ -6,7 +6,7 @@ type MenuItemsType = {
   name: string,
 }[];
 
-export default function NavMenu({ menuItems } : { menuItems : MenuItemsType}) {
+export default function NavMenu({ menuItems } : { menuItems?: MenuItemsType}) {
   return (
     <div className="flex flex-col md:flex-row justify-between md:justify-evenly items-center bg-white">
       <Link
@@ -34,6 +34,7 @@ export default function NavMenu({ menuItems } : { menuItems : MenuItemsType}) {
       </Link>
       
       {/* Menu items: */}
+      {menuItems && (
       <div className="flex gap-0 justify-around w-full md:w-1/2 md:max-w-2xl">
         {menuItems.map((menuItem, i) => (
              <Link 
@@ -45,6 +46,7 @@ export default function NavMenu({ menuItems } : { menuItems : MenuItemsType}) {
             </Link>
         ))}
       </div>
+      )}
     </div>
   );
 }
