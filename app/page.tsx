@@ -91,7 +91,7 @@ export default async function Home() {
                   <p className="basis-1/6"><IconMail /></p>
                   <p className="basis-5/6">contacto@casamartarestaurante.com</p>
                 </Link>
-                <Link href="tel:+340123456" className="flex mb-1 ml-8">
+                <Link href="tel:+34931470175" className="flex mb-1 ml-8">
                   <p className="basis-1/6"><IconPhone /></p>
                   <p className="basis-5/6">+34 931 470 175</p>
                 </Link>
