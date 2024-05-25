@@ -1,0 +1,71 @@
+{
+  "name": "Bebidas",
+  "categories": [
+    {
+      "type": "category",
+      "name": "Cervezas",
+      "content": [
+        { "type": "item", "name": "Cusqueña golden lager", "price": "3,90€" },
+        { "type": "item", "name": "Cusqueña dark lager", "price": "3,90€" },
+        { "type": "item", "name": "Voll Damm", "price": "2,10€" },
+        { "type": "item", "name": "Free Damm Tostada", "price": "2,00€" },
+        { "type": "item", "name": "Estrella Galicia", "price": "2,00€" },
+        { "type": "item", "name": "Estrella Damm", "price": "2,00€" },
+        { "type": "item", "name": "Clara", "price": "2,00€" },
+        { "type": "item", "name": "Turia (Caña)", "price": "2,10€" },
+        { "type": "item", "name": "Damm Lemon", "price": "2,00€" },
+        { "type": "item", "name": "Copa Caña", "price": "2,10€" },
+        { "type": "item", "name": "Cañita", "price": "1,50€" }
+      ]
+    },
+    {
+      "type": "category",
+      "name": "Cocteles",
+      "content": [
+        { "type": "item", "name": "Pisco Sour Original", "price": "7,50€" },
+        { "type": "item", "name": "Pisco Sour de Maracuyá", "price": "8,50€" },
+        { "type": "item", "name": "Aperol Spritz", "price": "5,50€" },
+        { "type": "item", "name": "Mojito", "price": "6,50€" },
+        { "type": "item", "name": "Tinto de Verano", "price": "5,50€" },
+        { "type": "item", "name": "Gin Tonic", "price": "6,50€" },
+        { "type": "item", "name": "Tequila Sunrise", "price": "6,50€" },
+        { "type": "item", "name": "Limoncello Spritz", "price": "5,50€" },
+        { "type": "item", "name": "Copa de Sangría", "price": "5,90€" },
+        { "type": "item", "name": "Jarra de Sangría", "price": "10,50€" },
+        { "type": "item", "name": "Orujo de Hierbas", "price": "2,50€" }
+      ]
+    },
+    {
+      "type": "category",
+      "name": "Bebidas",
+      "content": [
+        { "type": "item", "name": "Agua 500ml", "price": "2,00€" },
+        { "type": "item", "name": "Agua 1,5L", "price": "2,50€" },
+        { "type": "item", "name": "Coca Cola", "price": "2,00€" },
+        { "type": "item", "name": "Coca Cola Zero", "price": "2,00€" },
+        { "type": "item", "name": "Inca Kola", "price": "3,80€" },
+        { "type": "item", "name": "Nestea (Ice tea)", "price": "2,20€" },
+        { "type": "item", "name": "Fanta de Naranja", "price": "2,00€" },
+        { "type": "item", "name": "Fanta de Limón", "price": "2,00€" },
+        { "type": "item", "name": "Aquarius", "price": "2,00€" },
+        { "type": "item", "name": "Agua Vichy", "price": "2,20€" },
+        { "type": "item", "name": "Schweppes", "price": "2,00€" },
+        { "type": "item", "name": "Zumos", "price": "1,50€" }
+      ]
+    },
+    {
+      "type": "category",
+      "name": "Café",
+      "content": [
+        { "type": "item", "name": "Expresso", "price": "1,50€" },
+        { "type": "item", "name": "Café largo", "price": "1,90€" },
+        { "type": "item", "name": "Cortado", "price": "1,70€" },
+        { "type": "item", "name": "Café con leche", "price": "1,90€" },
+        { "type": "item", "name": "Moccachino", "price": "2,00€" },
+        { "type": "item", "name": "Chocolate caliente", "price": "1,90€" },
+        { "type": "item", "name": "Té", "price": "1,50€" },
+        { "type": "item", "name": "Trifásico", "price": "2,50€" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Postres de la Casa",
+  "categories": [
+    {
+      "type": "category",
+      "name": "",
+      "content": [
+        { "type": "item", "name": "Flan de Caramelo", "price": "3,50€" },
+        { "type": "item", "name": "Postre de Limón", "price": "5,00€" },
+        { "type": "item", "name": "Torta de Queso", "price": "5,00€" },
+        { "type": "item", "name": "Macedonia de frutas", "price": "3,50€" },
+        { "type": "item", "name": "Torta de zanahoria", "price": "5,50€" },
+        { "type": "item", "name": "Helados (sorbete)", "price": "3,00€" }
+      ]
+    }
+  ]
+}
