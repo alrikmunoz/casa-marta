@@ -55,7 +55,7 @@ export default async function Home() {
         <div className="py-6 px-2 md:p-6"> {/* This is div for the whole page content */}
 
           <div className="w-5/6 mx-auto max-w-sm md:max-w-3xl mt-8 mb-16"> {/* start of menu section */}
-            <h2 id="menu" className={"text-center text-3xl font-bold tracking-widest"}>Menú</h2>
+            <h2 id="menu" className={"text-center text-3xl font-bold tracking-widest scroll-mt-[78px] md:scroll-mt-[114px]"}>Menú</h2>
             
             <div className="my-4 md:my-16">{/* start of menu content */}
 
@@ -73,7 +73,7 @@ export default async function Home() {
           </div> {/* end of menu section */}
           
           <div className="w-4/5 mx-auto max-w-sm md:max-w-xl my-16"> {/* start of hours */}
-            <h2 id="hours" className={"text-center text-3xl font-bold tracking-widest"}>Horario</h2>
+            <h2 id="hours" className={"text-center text-3xl font-bold tracking-widest scroll-mt-[78px] md:scroll-mt-[114px]"}>Horario</h2>
             <div className="my-4 md:my-12">
               <div className="flex justify-between mb-1">
                 <span>martes a jueves</span>
@@ -93,7 +93,7 @@ export default async function Home() {
 
           <div className="md:flex md:justify-center gap-48">
             <div className="md:w-4/5 w-11/12 mx-auto md:mx-0 max-w-sm my-16"> {/* start of contact */}
-              <h2 id="contact" className={"text-center text-3xl font-bold tracking-widest"}>Contacto</h2>
+              <h2 id="contact" className={"text-center text-3xl font-bold tracking-widest scroll-mt-[78px] md:scroll-mt-[114px]"}>Contacto</h2>
               <div className="my-4">
                 <div className="flex justify-center gap-14 my-8 md:my-8">
                   <Link title="Página de Facebook para Casa Marta Restaurante" aria-label="Facebook" href="https://www.facebook.com/people/Casa-Marta-Restaurante/61557999488320/"><IconBrandFacebook /></Link>
@@ -118,7 +118,7 @@ export default async function Home() {
             </div>
 
             <div className="w-4/5 mx-auto md:mx-0 max-w-sm my-16"> {/* start of about */}
-              <h2 id="about" className={"text-center text-3xl font-bold tracking-widest"}>Sobre nosotros</h2>
+              <h2 id="about" className={"text-center text-3xl font-bold tracking-widest scroll-mt-[78px] md:scroll-mt-[114px]"}>Sobre nosotros</h2>
               <div className="my-4 md:my-12">
                 <p className="text-center mb-6">En Casa Marta Restaurante, nuestra historia comienza con Marta, una colombiana que se trasladó de Suecia a Barcelona hace {yearsAgoStr} años. 
                 Tras dejar atrás su carrera en el área de informática, el sueño de Marta de compartir su pasión por la cocina diversa se ha hecho realidad.</p>
