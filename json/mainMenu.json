@@ -5,29 +5,26 @@
       "type": "category",
       "name": "Bocadillos",
       "content": [
-        { "type": "item", "name": "Torrada de jamón ibérico", "price": "11,90€" },
         { "type": "item", "name": "Torrada de jamón serrano", "price": "8,90€" },
-        { "type": "item", "name": "Bocadillo de tortilla francesa", "price": "5,50€", "description": "(con queso y en pan gallego)" },
-        { "type": "item", "name": "Bocadillo de bacon", "price": "6,50€", "description": "(con queso y en pan gallego)" },
-        { "type": "item", "name": "Pan de cristal con tomate", "price": "3,50€" },
-        { "type": "item", "name": "Pan gallego con tomate", "price": "3,50€" },
-        { "type": "item", "name": "Ración de Pan", "price": "2,00€" }
+        { "type": "item", "name": "Bocadillo de tortilla francesa", "price": "5,50€" },
+        { "type": "item", "name": "Bocadillo de bacon", "price": "6,50€", "description": "con queso" },
+        { "type": "item", "name": "Pan con tomate", "price": "3,50€" },
+        { "type": "item", "name": "Ración de pan", "price": "1,00€" }
       ]
     },
     {
       "type": "category",
       "name": "Tapas",
       "content": [
+        { "type": "item", "name": "Langostinos rebozados (1 unid.)", "price": "2,50€" },
+        { "type": "item", "name": "Ración de langostinos (5 unid.)", "price": "10,90€" },
         { "type": "item", "name": "Bravas rústicas", "price": "7,50€" },
         { "type": "item", "name": "Bravas con alioli", "price": "7,90€" },
-        { "type": "item", "name": "Croquetas de bacalao (6 unid.)", "price": "9,00€" },
-        { "type": "item", "name": "Croquetas de jamón ibérico (6 unid.)", "price": "9,00€" },
-        { "type": "item", "name": "Croquetas de cocido (6 unid.)", "price": "9,00€" },
-        { "type": "item", "name": "Croquetas de pollo (6 unid.)", "price": "9,00€" },
-        { "type": "item", "name": "Callos", "price": "9,50€" },
-        { "type": "item", "name": "Morros fritos", "price": "9,50€" },
-        { "type": "item", "name": "Yuca de la Casa con salsa de ají amarillo", "price": "7,90€" },
-        { "type": "item", "name": "Salchipapa", "price": "9,90€" }
+        { "type": "item", "name": "Callos", "price": "10,90€" },
+        { "type": "item", "name": "Morros fritos", "price": "9,90€" },
+        { "type": "item", "name": "Yuca de la Casa con salsa de ají amarillo", "price": "8,50€" },
+        { "type": "item", "name": "Salchipapa", "price": "9,90€" },
+        { "type": "item", "name": "Croquetas (1 unid.)", "price": "2,00€", "description": "jamón ibérico, cocido o pollo y bacalao" }
       ]
     },
     {
@@ -35,56 +32,54 @@
       "name": "Del Mar",
       "content": [
         { "type": "item", "name": "Calamares a la andaluza", "price": "14,90€" },
-        { "type": "item", "name": "Sepia a la plancha", "price": "14,90€" },
+        { "type": "item", "name": "Sepia a la plancha", "price": "15,90€" },
         { "type": "item", "name": "Almejas a la marinera", "price": "12,90€" },
-        { "type": "item", "name": "Mejillones a la marinera/vapor", "price": "12,50€" },
-        { "type": "item", "name": "Paella de Mariscos (mín. 2 p.)", "price": "17,50€ pp." },
-        { "type": "item", "name": "Fideuá a la marinera (mín. 2 p.)", "price": "16,50€ pp." }
+        { "type": "item", "name": "Rabas de calamar", "price": "11,90€", "description": "al estilo andaluz acompañada con patata dorada" },
+        { "type": "item", "name": "Paella de Mariscos (mín. 2 p.)", "price": "22,50€ pp." },
+        { "type": "item", "name": "Dorada frita (400 g)", "price": "15,90€", "description": "acompañada de patatas fritas y ensalada criolla" }
       ]
     },
     {
       "type": "category",
       "name": "Carnes",
       "content": [
-        { "type": "item", "name": "Chuletón de ternera (500 g)", "price": "18,90€" },
+        { "type": "item", "name": "Chuletón de ternera (500 g)", "price": "19,90€", "description": "de vaca gallega" },
         { "type": "item", "name": "Bistec de ternera", "price": "12,90€" },
-        { "type": "item", "name": "Milanesa de ternera", "price": "11,90€" },
-        { "type": "item", "name": "Milanesa de pollo", "price": "10,90€" }
+        { "type": "item", "name": "Milanesa de pollo", "price": "10,90€" },
+        { "type": "item", "name": "Tiras de solomillo de pollo", "price": "12,90€", "description": "tiras de pollo frito con patata frita y salsa tártara" }
       ]
     },
     {
       "type": "category",
       "name": "Pastas de la Casa",
       "content": [
-        { "type": "item", "name": "Tallarín a la boloñesa", "price": "10,90€" },
-        { "type": "item", "name": "Macarrones a la boloñesa", "price": "10,90€" }
+        { "type": "item", "name": "Tallarín / macarrones a la boloñesa", "price": "10,90€" }
       ]
     },
     {
       "type": "category",
       "name": "Ensaladas",
       "content": [
-        { "type": "item", "name": "Ensalada de Queso de Cabra", "price": "12,90€", "description": "(mix de lechugas de temporada, queso de cabra, nueces y reducción de vinagre balsámico)" },
-        { "type": "item", "name": "Ensalada de Atún", "price": "10,90€", "description": "(mix de lechugas de temporada, zanahoria, pimientos, tomate, reducción de vinagre balsámico y atún fresco)" }
+        { "type": "item", "name": "Ensalada de Queso de Cabra", "price": "12,90€", "description": "mix de lechugas de temporada, queso de cabra, nueces y reducción de vinagre balsámico" },
+        { "type": "item", "name": "Ensalada de Atún", "price": "11,90€", "description": "mix de lechugas de temporada, zanahoria, pimientos, tomate, reducción de vinagre balsámico y atún fresco" }
       ]
     },
     {
       "type": "category",
       "name": "Sabores peruanos",
       "content": [
-        { "type": "item", "name": "Ceviche", "price": "15,90€", "description": "(dados de pescado marinados en lima con leche de tigre y el toque Casa Marta)" },
-        { "type": "item", "name": "Anticuchos de corazón de ternera", "price": "10,90€", "description": "(macerado en salsa de ají panca acompañados de choclo y patata dorada)" },
-        { "type": "item", "name": "Patata a la huancaína", "price": "10,90€", "description": "(patatas bañadas en salsa de ají amarillo y el toque Casa Marta)" },
-        { "type": "item", "name": "Lomo saltado", "price": "16,90€", "description": "(generosos trozos de lomo de ternera salteados al wok en reducción de soja y acompañado de arroz y patata dorada)" },
-        { "type": "item", "name": "Pollo saltado", "price": "14,90€", "description": "(generosos trozos de pollo salteados al wok en reducción de soja y acompañado de arroz y patata dorada)" },
-        { "type": "item", "name": "Tallarín saltado de ternera", "price": "15,90€", "description": "(tiras de lomo de ternera salteados al wok en reducción de soja)" },
-        { "type": "item", "name": "Tallarín saltado de pollo", "price": "14,90€", "description": "(tiras de pollo salteados al wok en reducción de soja)" },
-        { "type": "item", "name": "Arroz chaufa de ternera", "price": "15,90€", "description": "(arroz frito con trozos de ternera, tortilla de huevo y cebolla china salteados al wok con soja)" },
-        { "type": "item", "name": "Arroz chaufa de pollo", "price": "14,90€", "description": "(arroz frito con tiras de pollo, tortilla de huevo y cebolla china salteados al wok con soja)" },
-        { "type": "item", "name": "Arroz chaufa de secreto ibérico", "price": "15,90€", "description": "(arroz frito con trozos de secreto ibérico, tortilla de huevo y cebolla china salteados huevo y cebolla china salteados al wok con soja)" },
-        { "type": "item", "name": "Chicharrón de pescado", "price": "15,90€", "description": "(tiras de pescado frito con yuca frita o patata dorada y ensalada criolla)" },
-        { "type": "item", "name": "Rabas de calamar", "price": "10,50€", "description": "(al estilo andaluz acompañada con patata dorada)" },
-        { "type": "item", "name": "Tiras de solomillo de pollo", "price": "12,90€", "description": "(tiras de pollo frito con patata frita y salsa tártara)" }
+        { "type": "item", "name": "Ceviche", "price": "15,90€", "description": "dados de pescado marinados en lima con leche de tigre y el toque Casa Marta" },
+        { "type": "item", "name": "Anticuchos de corazón de ternera", "price": "10,90€", "description": "macerado en salsa de ají panca acompañados de choclo y patata dorada" },
+        { "type": "item", "name": "Patata a la huancaína", "price": "10,90€", "description": "patatas bañadas en salsa de ají amarillo y el toque Casa Marta" },
+        { "type": "item", "name": "Lomo saltado", "price": "16,90€", "description": "generosos trozos de lomo de ternera salteados al wok en reducción de soja y acompañado de arroz y patata dorada" },
+        { "type": "item", "name": "Pollo saltado", "price": "14,90€", "description": "generosos trozos de pollo salteados al wok en reducción de soja y acompañado de arroz y patata dorada" },
+        { "type": "item", "name": "Tallarín saltado de ternera", "price": "16,90€", "description": "tiras de lomo de ternera salteados al wok en reducción de soja" },
+        { "type": "item", "name": "Tallarín saltado de pollo", "price": "14,90€", "description": "tiras de pollo salteados al wok en reducción de soja" },
+        { "type": "item", "name": "Arroz chaufa de ternera", "price": "16,90€", "description": "arroz frito con trozos de ternera, tortilla de huevo y cebolla china salteados al wok con soja" },
+        { "type": "item", "name": "Arroz chaufa de pollo", "price": "14,90€", "description": "arroz frito con tiras de pollo, tortilla de huevo y cebolla china salteados al wok con soja" },
+        { "type": "item", "name": "Arroz chaufa de secreto ibérico", "price": "15,90€", "description": "arroz frito con trozos de secreto ibérico, tortilla de huevo y cebolla china salteados huevo y cebolla china salteados al wok con soja" },
+        { "type": "item", "name": "Chicharrón de pescado", "price": "15,90€", "description": "tiras de pescado frito con yuca frita o patata dorada y ensalada criolla" },
+        { "type": "item", "name": "Causa de Atún", "price": "11,90€", "description": "puré de papa con atún y salsa de ají amarillo (una guindilla), servido frío y decorado con huevo duro y aceitunas" }
       ]
     }
   ]
