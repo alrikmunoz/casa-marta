@@ -35,7 +35,6 @@
         { "type": "item", "name": "Sepia a la plancha", "price": "15,90€" },
         { "type": "item", "name": "Almejas a la marinera", "price": "12,90€" },
         { "type": "item", "name": "Rabas de calamar", "price": "11,90€", "description": "al estilo andaluz acompañada con patata dorada" },
-        { "type": "item", "name": "Paella de Mariscos (mín. 2 p.)", "price": "22,50€ pp." },
         { "type": "item", "name": "Dorada frita (400 g)", "price": "15,90€", "description": "acompañada de patatas fritas y ensalada criolla" }
       ]
     },
@@ -78,8 +77,7 @@
         { "type": "item", "name": "Arroz chaufa de ternera", "price": "16,90€", "description": "arroz frito con trozos de ternera, tortilla de huevo y cebolla china salteados al wok con soja" },
         { "type": "item", "name": "Arroz chaufa de pollo", "price": "14,90€", "description": "arroz frito con tiras de pollo, tortilla de huevo y cebolla china salteados al wok con soja" },
         { "type": "item", "name": "Arroz chaufa de secreto ibérico", "price": "15,90€", "description": "arroz frito con trozos de secreto ibérico, tortilla de huevo y cebolla china salteados huevo y cebolla china salteados al wok con soja" },
-        { "type": "item", "name": "Chicharrón de pescado", "price": "15,90€", "description": "tiras de pescado frito con yuca frita o patata dorada y ensalada criolla" },
-        { "type": "item", "name": "Causa de Atún", "price": "11,90€", "description": "puré de papa con atún y salsa de ají amarillo (guindilla), servido frío y decorado con huevo duro y aceitunas" }
+        { "type": "item", "name": "Chicharrón de pescado", "price": "15,90€", "description": "tiras de pescado frito con yuca frita o patata dorada y ensalada criolla" }
       ]
     }
   ]
