@@ -68,7 +68,7 @@
       "name": "Sabores peruanos",
       "content": [
         { "type": "item", "name": "Ceviche", "price": "15,90€", "description": "dados de pescado marinados en lima con leche de tigre y el toque Casa Marta" },
-        { "type": "item", "name": "Anticuchos de corazón de ternera", "price": "10,90€", "description": "macerado en salsa de ají panca acompañados de choclo y patata dorada" },
+        { "type": "item", "name": "Anticuchos de corazón de ternera", "price": "12,90€", "description": "macerado en salsa de ají panca acompañados de choclo y patata dorada" },
         { "type": "item", "name": "Patata a la huancaína", "price": "10,90€", "description": "patatas bañadas en salsa de ají amarillo y el toque Casa Marta" },
         { "type": "item", "name": "Lomo saltado", "price": "16,90€", "description": "generosos trozos de lomo de ternera salteados al wok en reducción de soja y acompañado de arroz y patata dorada" },
         { "type": "item", "name": "Pollo saltado", "price": "14,90€", "description": "generosos trozos de pollo salteados al wok en reducción de soja y acompañado de arroz y patata dorada" },
