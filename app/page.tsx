@@ -7,7 +7,8 @@ import NavMenu from '@/app/ui/navmenu';
 import { Fragment } from 'react';
 
 // const menuFiles = ['/json/mainMenu.json', '/json/postres.json', '/json/bebidas.json'];
-const menuFiles = ['/json/mainMenu.json', '/json/bebidas.json'];
+// const menuFiles = ['/json/mainMenu.json', '/json/bebidas.json'];
+const menuFiles = ['/json/mainMenu.json'];
 
 const navMenuItems = [
   {
