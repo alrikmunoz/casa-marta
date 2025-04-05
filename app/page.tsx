@@ -82,7 +82,7 @@ export default async function Home() {
               </div>
               <div className="flex justify-between mb-1">
                 <span>viernes y sábado</span>
-                <span>de 11:00 a 23:00 horas</span>
+                <span>de 11:00 a 22:30 horas</span>
               </div>
               <div className="flex justify-between mb-4">
                 <span>domingo</span>
