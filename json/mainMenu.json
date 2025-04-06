@@ -76,7 +76,7 @@
         { "type": "item", "name": "Tallarín saltado de pollo", "price": "14,90€", "description": "tiras de pollo salteados al wok en reducción de soja" },
         { "type": "item", "name": "Arroz chaufa de ternera", "price": "16,90€", "description": "arroz frito con trozos de ternera, tortilla de huevo y cebolla china salteados al wok con soja" },
         { "type": "item", "name": "Arroz chaufa de pollo", "price": "14,90€", "description": "arroz frito con tiras de pollo, tortilla de huevo y cebolla china salteados al wok con soja" },
-        { "type": "item", "name": "Arroz chaufa de secreto ibérico", "price": "15,90€", "description": "arroz frito con trozos de secreto ibérico, tortilla de huevo y cebolla china salteados huevo y cebolla china salteados al wok con soja" },
+        { "type": "item", "name": "Arroz chaufa de secreto ibérico", "price": "15,90€", "description": "arroz frito con trozos de secreto ibérico, tortilla de huevo y cebolla china salteados al wok con soja" },
         { "type": "item", "name": "Chicharrón de pescado", "price": "15,90€", "description": "tiras de pescado frito con yuca frita o patata dorada y ensalada criolla" }
       ]
     }
