@@ -24,7 +24,7 @@
         { "type": "item", "name": "Morros fritos", "price": "9,90€" },
         { "type": "item", "name": "Yuca de la Casa con salsa de ají amarillo", "price": "8,50€" },
         { "type": "item", "name": "Salchipapa", "price": "9,90€" },
-        { "type": "item", "name": "Croquetas (1 unid.)", "price": "2,00€", "description": "jamón ibérico, cocido o pollo y bacalao" }
+        { "type": "item", "name": "Croquetas (1 unid.)", "price": "2,00€", "description": "jamón ibérico, pollo, o bacalao" }
       ]
     },
     {
