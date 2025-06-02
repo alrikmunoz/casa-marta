@@ -56,6 +56,11 @@ export default async function Home() {
       <main>
         <div className="py-6 px-2 md:p-6"> {/* This is div for the whole page content */}
 
+          <div className="w-5/6 mx-auto max-w-sm md:max-w-3xl mt-8 mb-16"> {/* start of CLOSED section */}
+            <h2  className={"text-center my-[40px] text-4xl font-bold tracking-widest scroll-mt-[78px] md:scroll-mt-[114px]"}>Casa Marta ha cerrado permanentemente</h2>
+            <h2  className={"text-center mb-[100px] text-4xl font-bold tracking-widest scroll-mt-[78px] md:scroll-mt-[114px]"}>Gracias a todos por los buenos momentos que pasamos juntos.</h2>
+          </div> {/* end of CLOSED section */}
+          
           <div className="w-5/6 mx-auto max-w-sm md:max-w-3xl mt-8 mb-16"> {/* start of menu section */}
             <h2 id="menu" className={"text-center text-3xl font-bold tracking-widest scroll-mt-[78px] md:scroll-mt-[114px]"}>Menú</h2>
             
@@ -77,15 +82,15 @@ export default async function Home() {
           <div className="w-4/5 mx-auto max-w-sm md:max-w-xl my-16"> {/* start of hours */}
             <h2 id="hours" className={"text-center text-3xl font-bold tracking-widest scroll-mt-[78px] md:scroll-mt-[114px]"}>Horario</h2>
             <div className="my-4 md:my-12">
-              <div className="flex justify-between mb-1">
+              <div className="flex justify-between mb-1 line-through">
                 <span>martes a jueves</span>
                 <span>de 11:00 a 22:00 horas</span>
               </div>
-              <div className="flex justify-between mb-1">
+              <div className="flex justify-between mb-1 line-through">
                 <span>viernes y sábado</span>
                 <span>de 11:00 a 22:30 horas</span>
               </div>
-              <div className="flex justify-between mb-4">
+              <div className="flex justify-between mb-4 line-through">
                 <span>domingo</span>
                 <span>de 11:00 a 17:00 horas</span>
               </div>
@@ -101,21 +106,25 @@ export default async function Home() {
                   <Link title="Página de Facebook para Casa Marta Restaurante" aria-label="Facebook" href="https://www.facebook.com/people/Casa-Marta-Restaurante/61557999488320/"><IconBrandFacebook /></Link>
                   <Link title="Página de Instagram para Casa Marta Restaurante" aria-label="Instagram" href="https://www.instagram.com/casamartarestaurante/"><IconBrandInstagram /></Link>
                 </div>
-                <Link href="mailto:contacto@casamartarestaurante.com" className="flex mb-1 ml-8">
+                {/*                 
+                <Link href="" className="flex mb-1 ml-8">
                   <p className="basis-1/6"><IconMail /></p>
-                  <p className="basis-5/6">contacto@casamartarestaurante.com</p>
+                  <p className="basis-5/6">N/A</p>
                 </Link>
-                <Link href="tel:+34931470175" className="flex mb-1 ml-8">
+                <Link href="" className="flex mb-1 ml-8">
                   <p className="basis-1/6"><IconPhone /></p>
-                  <p className="basis-5/6">+34 931 470 175</p>
-                </Link>
+                  <p className="basis-5/6">N/A</p>
+                </Link> 
+                */}
                 <div className="flex mb-1 ml-8">
                   <p className="basis-1/6"><IconMapPin /></p>
                   <p className="basis-5/6">Carrer Ramon Llull, 26, 08330 Premià de Mar</p>
                 </div>
+                {/*                 
                 <div className="my-6 md:w-auto w-4/5 m-auto">
                   <p>Para realizar reservas, por favor utilice el número de teléfono indicado arriba.</p>
-                </div>
+                </div> 
+                */}
               </div>
             </div>
 
